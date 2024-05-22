@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "C:\DTD/testng-1.0.dtd">
+
+<suite name="Debug" verbose="1">
+	<test name="ExceptionTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.herokuapp.theinternet.Exceptiontest" >
+			<methods>
+			<include name="timeoutExceptionTests"></include>
+			</methods>
+			</class>
+			
+		</classes>
+	</test>
+
+</suite>
